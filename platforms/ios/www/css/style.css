@@ -1,0 +1,33 @@
+body {
+	background-color: black;
+	background-image: '../images/background-small.png';
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+	color: white;
+}
+
+ul {
+	padding: 0px;
+}
+
+li {
+	padding: 10px 0px;
+	list-style-type: none !important;
+}
+
+img {
+	width: 100%;
+}
+
+#main-content {
+	width: 100%;
+	padding: 5px 10px;	
+}
+
+.shots {
+	color:blue;
+	font-weight: bold;
+	text-transform: capitalize;
+	display: block;
+	background: #aaa;
+}
