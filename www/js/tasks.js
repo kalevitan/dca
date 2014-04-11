@@ -8,7 +8,7 @@ function loadTasks() {
 		timeout: 5000,
 		success: function(data) {
 			$.each(JSON.parse(data), function(i,item){
-        tasks.append('<li>'+item.name+'</li>')
+        tasks.append("<li><span class='shots'>"+item.name+"</span><img src='"+item.avatar_url+"'</li>'")
 			});
 		},
 		error: function(data) {
